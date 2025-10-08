@@ -21,7 +21,7 @@ public class StudentAppApiApplication {
 
 	private void dataSetup(StudentRepository studentRepository) {
 		System.out.println("Adding student");
-		Student student = new Student("HuuTK","Udemy DevOps");
+		Student student = new Student("HuuTK","Udemy DevOps v0.4");
 		studentRepository.save(student);
 	}
 }
